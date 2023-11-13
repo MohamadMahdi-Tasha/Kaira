@@ -4,6 +4,7 @@ import {ReactNode} from "react";
 import {Metadata} from "next";
 import {Marcellus} from "next/font/google";
 import {NextFont} from "next/dist/compiled/@next/font";
+import '@/app/index.css';
 
 // Defining font
 const MarcellusFont:NextFont = Marcellus({weight: '400'})
