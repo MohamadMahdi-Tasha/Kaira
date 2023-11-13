@@ -7,7 +7,10 @@ import {NextFont} from "next/dist/compiled/@next/font";
 import '@/app/index.css';
 
 // Defining font
-const MarcellusFont:NextFont = Marcellus({weight: '400'})
+const MarcellusFont:NextFont = Marcellus({
+    weight: '400',
+    subsets: ['latin']
+})
 
 // Defining metadata of pages
 export const metadata:Metadata = {
