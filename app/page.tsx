@@ -6,7 +6,7 @@ import {ReactNode} from "react";
 export default function HomePage():ReactNode {
     // Returning JSX
     return (
-        <div>
+        <div className={'bg-black flex justify-center items-center min-h-screen'}>
             <h1>Home page</h1>
         </div>
     );
