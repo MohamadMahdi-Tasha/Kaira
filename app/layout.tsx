@@ -5,6 +5,7 @@ import {Metadata} from "next";
 import {Marcellus} from "next/font/google";
 import {NextFont} from "next/dist/compiled/@next/font";
 import '@/app/index.css';
+import HeaderComponent from "@/component/headerComponent";
 
 // Defining font
 const MarcellusFont:NextFont = Marcellus({
@@ -39,6 +40,7 @@ export default function RootLayoutComponent({children}:propsType):ReactNode {
     return (
         <html>
             <body className={MarcellusFont.className}>
+                <HeaderComponent />
                 {children}
             </body>
         </html>
